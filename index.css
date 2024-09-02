@@ -1,1 +1,91 @@
+.navbar{ 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #646FEB; 
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family: OPTIAmadeus;
+    font-weight: 500;
+    color: white;
+    padding: 15px 20px;
+
+
+
+}
+
+.navbar a { 
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+
+}
+
+
+
+.banner {
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 50px ;
+    text-align: center;
+    padding: 50px 0;
+    font-family: OPTIAmadeus;
+    font-size: 50px;
+}
+
+#main-image {
+    height: 250px;
+    width: 250px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+
+.bold {
+    font-weight:900 ;
+}
+
+#text {
+    font-family: OPTIAmadeus ;
+    font-size: 50px;
+    text-align: center;
+}
+
+.color {
+    color: cornflowerblue;
+}
+
+#list{
+    font-size: 30px;
+    font-family: OPTIAmadeus;
+}
+
+#Facts ul {
+    list-style-type: none;
+
+}
+
+
+.middle-section{
+    padding: 20px 50px;
+}
+
+.avatar {
+    background-image: url(../Images/Screenshot_2024-08-29_at_16.11.28-removebg-preview.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+@font-face {
+    font-family: 'OPTIAmadeus';
+    src: url('/Users/ntsam/Desktop/Projects/Dev Project/Resources/Fonts/OPTIAmadeus-solid.otf')
+}
+
 
